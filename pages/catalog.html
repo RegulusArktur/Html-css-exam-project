@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог — ByteStore</title>
+
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <div class="catalog_head">
+        <div class="head">
+            <div class="logo">
+                <img src="/img/ByteStore_logo.svg" alt="ByteStore">
+            </div>
+            <div class="menu">
+                <a href="../index.html">Главная</a>
+                <a href="catalog.html">Каталог</a>
+                <a href="#builder">Сборка ПК</a>
+                <a href="#about">О нас</a>
+            </div>
+            <div class="search">
+                <input type="text">
+                <img src="/img/Search_alt_fill.png" alt="search">
+            </div>
+            <div class="login">
+                <a href="/pages/login.html"><img src="/img/login.svg" alt="login"></a>
+            </div>
+            <div class="cart">
+                <a href="/pages/cart.html"><img src="/img/Basket.svg" alt=""></a>
+            </div>
+        </div>
+
+
+        <main class="catalog_main">
+            <div class="catalog_header">
+                <p>Главная / Каталог</p>
+                <h1>Каталог</h1>
+                <p>Компьютеры, комплектующие и техника для любых задач</p>
+            </div>
+
+            <div class="catalog_categories">
+                <a href="#">Все товары</a>
+                <a href="#">Видеокарты</a>
+                <a href="#">Процессоры</a>
+                <a href="#">Ноутбуки</a>
+                <a href="#">Мониторы</a>
+                <a href="#">Комплектующие</a>
+            </div>
+
+        
+            <div class="catalog_content">
+                <aside class="catalog_filter">
+                    <h2>Фильтры</h2>
+                    <div class="filter_block">
+                        <h3>Цена</h3>
+                        <input type="number" placeholder="От">
+                        <input type="number" placeholder="До">
+                    </div>
+
+                    <div class="filter-block">
+
+                        <h3>Бренд</h3>
+
+                        <label>
+                            <input type="checkbox">
+                            NVIDIA
+                        </label>
+
+                        <label>
+                            <input type="checkbox">
+                            AMD
+                        </label>
+
+                        <label>
+                            <input type="checkbox">
+                            Intel
+                        </label>
+
+                        <label>
+                            <input type="checkbox">
+                            ASUS
+                        </label>
+
+                    </div>
+
+
+                    <div class="filter_block">
+
+                        <h3>Наличие</h3>
+
+                        <label>
+                            <input type="checkbox">
+                            В наличии
+                        </label>
+
+                        <label>
+                            <input type="checkbox">
+                            Под заказ
+                        </label>
+
+                    </div>
+
+                    <button class="filter_button">
+                        Применить
+                    </button>
+
+                </aside>
+                <div class="catalog_products">
+
+                    <div class="catalog_toolbar">
+                        <h2>Товары</h2>
+                        <select>
+                            <option>По популярности</option>
+                            <option>Сначала дешевле</option>
+                            <option>Сначала дороже</option>
+                        </select>
+                    </div>
+
+
+                    <div class="catalog_grid">
+                        <div class="catalog_card">
+                            <a href="product.html">
+                                <img src="../img/gpu.svg"
+                                    alt="GeForce RTX 5070">
+                            </a>
+                            
+                            <h3>GeForce RTX 5070 12 GB</h3>
+                            <p class="rating">
+                                ★ 4.9
+                                <span>128 отзывов</span>
+                            </p>
+
+                            <div class="catalog_price">
+                                <strong>389 990 ₸</strong>
+
+                                <a href="cart.html" class="catalog_cart">
+                                    <img src="../img/Basket.svg"
+                                        alt="Корзина">
+                                </a>
+                            </div>
+
+                        </div>
+                        <div class="catalog_card">
+
+                            <a href="product.html">
+                                <img src="../img/cpup.svg"
+                                    alt="Ryzen 7 7800X3D">
+                            </a>
+
+                            <h3>Ryzen 7 7800X3D</h3>
+
+                            <p class="rating">
+                                ★ 4.8
+                                <span>94 отзыва</span>
+                            </p>
+
+                            <div class="catalog_price">
+                                <strong>320 000 ₸</strong>
+
+                                <a href="cart.html" class="catalog_cart">
+                                    <img src="../img/Basket.svg"
+                                        alt="Корзина">
+                                </a>
+                            </div>
+
+                        </div>
+                        <div class="catalog_card">
+
+                            <a href="product.html">
+                                <img src="../img/lapt.svg"
+                                    alt="Игровой ноутбук">
+                            </a>
+
+                            <h3>Игровой ноутбук 16"</h3>
+
+                            <p class="rating">
+                                ★ 4.7
+                                <span>56 отзывов</span>
+                            </p>
+
+                            <div class="catalog_price">
+                                <strong>749 990 ₸</strong>
+                                <a href="cart.html" class="catalog_cart">
+                                    <img src="../img/Basket.svg"
+                                        alt="Корзина">
+                                </a>
+                            </div>
+
+                        </div>
+                        <div class="catalog_card">
+                            <a href="product.html">
+                                <img src="../img/monit.svg"
+                                    alt="Игровой монитор">
+                            </a>
+
+                            <h3>27" 2K 180Hz</h3>
+
+                            <p class="rating">
+                                ★ 4.6
+                                <span>41 отзыв</span>
+                            </p>
+
+                            <div class="catalog_price">
+                                <strong>189 990 ₸</strong>
+
+                                <a href="cart.html" class="catalog_cart">
+                                    <img src="../img/Basket.svg"
+                                        alt="Корзина">
+                                </a>
+                            </div>
+
+                        </div>
+                        <div class="catalog_card">
+
+                            <img src="../img/gpu.svg"
+                                alt="RTX 5060">
+
+                            <h3>GeForce RTX 5060 8 GB</h3>
+
+                            <p class="rating">
+                                ★ 4.7
+                                <span>72 отзыва</span>
+                            </p>
+
+                            <div class="catalog_price">
+                                <strong>229 990 ₸</strong>
+
+                                <a href="cart.html" class="catalog_cart">
+                                    <img src="../img/Basket.svg"
+                                        alt="Корзина">
+                                </a>
+                            </div>
+
+                        </div>
+                        <div class="catalog_card">
+
+                            <img src="../img/cpup.svg"
+                                alt="Ryzen 5">
+
+                            <h3>Ryzen 5 7600X</h3>
+
+                            <p class="rating">
+                                ★ 4.8
+                                <span>66 отзывов</span>
+                            </p>
+
+                            <div class="catalog_price">
+                                <strong>149 990 ₸</strong>
+
+                                <a href="cart.html" class="catalog_cart">
+                                    <img src="../img/Basket.svg"
+                                        alt="Корзина">
+                                </a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </main>
+    </div>
+
+
+    <footer class="footer">
+
+        <div class="footer_logo">
+
+            <img src="../img/ByteStore.png"
+                 alt="ByteStore">
+            <p>
+                Компьютеры, комплектующие
+                и техника для игр и работы.
+            </p>
+
+        </div>
+
+        <div class="footer_menu">
+
+            <h3>Навигация</h3>
+
+            <a href="../index.html">Главная</a>
+            <a href="catalog.html">Каталог</a>
+            <a href="../index.html#builder">Сборка ПК</a>
+            <a href="../index.html#about">О нас</a>
+
+        </div>
+
+        <div class="footer_catalog">
+
+            <h3>Каталог</h3>
+
+            <a href="#">Видеокарты</a>
+            <a href="#">Процессоры</a>
+            <a href="#">Ноутбуки</a>
+            <a href="#">Мониторы</a>
+
+        </div>
+
+        <div class="footer_contacts">
+            <h3>Контакты</h3>
+            <p>+7 777 123 45 10</p>
+            <p>info@test.kz</p>
+            <p>Алматы, Казахстан</p>
+        </div>
+    </footer>
+</body>
+</html>

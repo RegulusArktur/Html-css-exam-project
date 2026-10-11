@@ -1,0 +1,30 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="320" fill="transparent"/>
+
+  <!-- ByteStore icon -->
+  <g transform="translate(55 38)">
+    <!-- outer angular B / hex mark -->
+    <path d="M118 8 L118 54 L176 88 L176 170 L118 204 L58 170 L58 102 L90 120 L90 152 L118 168 L144 152 L144 108 L118 92 L118 120 L92 105 L92 36 Z"
+          fill="#B7FF2A"/>
+    <path d="M58 102 L58 170 L118 204 L118 168 L90 152 L90 120 Z"
+          fill="#83D11F"/>
+    <path d="M118 54 L176 88 L176 170 L144 152 L144 108 L118 92 Z"
+          fill="#9BE51F"/>
+    <!-- center cube -->
+    <path d="M118 116 L137 127 L137 149 L118 160 L99 149 L99 127 Z" fill="#B7FF2A"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="280" y="190"
+        font-family="Inter, Arial, Helvetica, sans-serif"
+        font-size="118"
+        font-weight="800"
+        letter-spacing="-5"
+        fill="#FFFFFF">Byte</text>
+  <text x="575" y="190"
+        font-family="Inter, Arial, Helvetica, sans-serif"
+        font-size="118"
+        font-weight="800"
+        letter-spacing="-5"
+        fill="#B7FF2A">Store</text>
+</svg>

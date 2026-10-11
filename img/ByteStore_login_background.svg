@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#070909"/>
+    <stop offset="55%" stop-color="#0D0F0F"/>
+    <stop offset="100%" stop-color="#101512"/>
+  </linearGradient>
+  <radialGradient id="glow" cx="75%" cy="35%" r="48%">
+    <stop offset="0%" stop-color="#B7FF2A" stop-opacity="0.20"/>
+    <stop offset="100%" stop-color="#B7FF2A" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="grid" width="56" height="56" patternUnits="userSpaceOnUse">
+    <path d="M56 0H0V56" fill="none" stroke="#8A9A90" stroke-opacity="0.06"/>
+  </pattern>
+</defs>
+
+<rect width="1920" height="1080" fill="url(#bg)"/>
+<rect width="1920" height="1080" fill="url(#grid)"/>
+<rect width="1920" height="1080" fill="url(#glow)"/>
+
+<g transform="translate(1320 170)">
+  <rect width="410" height="690" rx="28" fill="#111715" stroke="#2A342F" stroke-width="4"/>
+  <rect x="24" y="24" width="295" height="642" rx="18" fill="#0A0D0C" stroke="#1F2824" stroke-width="3"/>
+  <rect x="338" y="36" width="48" height="618" rx="18" fill="#0C100E"/>
+
+  <circle cx="362" cy="160" r="54" fill="none" stroke="#B7FF2A" stroke-width="10"/>
+  <circle cx="362" cy="330" r="54" fill="none" stroke="#B7FF2A" stroke-width="10" opacity="0.9"/>
+  <circle cx="362" cy="500" r="54" fill="none" stroke="#B7FF2A" stroke-width="10" opacity="0.8"/>
+
+  <rect x="64" y="120" width="205" height="28" rx="8" fill="#1B2520"/>
+  <rect x="64" y="200" width="190" height="96" rx="12" fill="#111916" stroke="#2A3A32"/>
+  <rect x="92" y="335" width="180" height="44" rx="10" fill="#161E1A"/>
+  <rect x="88" y="410" width="194" height="26" rx="8" fill="#1C2821"/>
+  <rect x="72" y="520" width="210" height="70" rx="12" fill="#101713"/>
+  <rect x="107" y="225" width="120" height="8" rx="4" fill="#B7FF2A" opacity="0.75"/>
+  <rect x="120" y="425" width="132" height="7" rx="4" fill="#74DD0B" opacity="0.75"/>
+</g>
+
+<path d="M0 860H1050" stroke="#B7FF2A" stroke-opacity="0.55" stroke-width="3"/>
+<path d="M250 915H1030" stroke="#74DD0B" stroke-opacity="0.25" stroke-width="2"/>
+<circle cx="300" cy="870" r="4" fill="#B7FF2A"/>
+<circle cx="365" cy="870" r="4" fill="#B7FF2A" opacity="0.55"/>
+<circle cx="430" cy="870" r="4" fill="#B7FF2A" opacity="0.3"/>
+
+<rect width="1920" height="1080" fill="none" stroke="#000" stroke-opacity="0.45" stroke-width="80"/>
+</svg>
