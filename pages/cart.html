@@ -1,38 +1,55 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Корзина — ByteStore</title>
+    <title>Корзина</title>
 
     <link rel="stylesheet" href="../style.css">
 </head>
 
 <body>
+
     <div class="cart_head">
+
         <div class="head">
+
             <div class="logo">
-                <img src="/img/ByteStore_logo.svg" alt="ByteStore">
+                <a href="../index.html">
+                    <img src="../img/ByteStore_logo.svg" alt="ByteStore">
+                </a>
             </div>
+
             <div class="menu">
                 <a href="../index.html">Главная</a>
                 <a href="catalog.html">Каталог</a>
-                <a href="#builder">Сборка ПК</a>
-                <a href="#about">О нас</a>
+                <a href="../index.html#builder">Сборка ПК</a>
+                <a href="../index.html#about">О нас</a>
             </div>
+
             <div class="search">
                 <input type="text">
-                <img src="/img/Search_alt_fill.png" alt="search">
+                <img src="../img/Search_alt_fill.png" alt="search">
             </div>
+
             <div class="login">
-                <a href="/pages/login.html"><img src="/img/login.svg" alt="login"></a>
+                <a href="login.html">
+                    <img src="../img/login.svg" alt="login">
+                </a>
             </div>
+
             <div class="cart">
-                <a href="/pages/cart.html"><img src="/img/Basket.svg" alt=""></a>
+                <a href="cart.html">
+                    <img src="../img/Basket.svg" alt="Корзина">
+                </a>
             </div>
+
         </div>
+
     </div>
+
     <main class="cart-page">
 
         <p class="cart-path">
@@ -41,9 +58,10 @@
 
         <h1>Корзина</h1>
 
-
         <div class="cart-content">
+
             <div class="cart-products">
+
                 <div class="cart-item">
 
                     <img
@@ -62,28 +80,27 @@
                         </span>
                     </div>
 
-
                     <div class="cart-quantity">
-
-                        <button>-</button>
+                        <button type="button">-</button>
 
                         <span>1</span>
 
-                        <button>+</button>
-
+                        <button type="button">+</button>
                     </div>
-
 
                     <strong class="cart-price">
                         389 990 ₸
                     </strong>
 
-
-                    <button class="cart-delete">
+                    <button
+                        type="button"
+                        class="cart-delete"
+                    >
                         ×
                     </button>
 
                 </div>
+
                 <div class="cart-item">
 
                     <img
@@ -104,84 +121,69 @@
 
                     </div>
 
-
                     <div class="cart-quantity">
 
-                        <button>-</button>
+                        <button type="button">-</button>
 
                         <span>1</span>
 
-                        <button>+</button>
+                        <button type="button">+</button>
 
                     </div>
-
 
                     <strong class="cart-price">
                         320 000 ₸
                     </strong>
 
-
-                    <button class="cart-delete">
+                    <button
+                        type="button"
+                        class="cart-delete"
+                    >
                         ×
                     </button>
 
                 </div>
 
             </div>
+
             <div class="cart-summary">
 
                 <h2>Ваш заказ</h2>
 
-
                 <div class="summary-row">
-
                     <span>Товары</span>
-
                     <span>709 990 ₸</span>
-
                 </div>
 
-
                 <div class="summary-row">
-
                     <span>Скидка</span>
 
                     <span class="discount">
                         -20 000 ₸
                     </span>
-
                 </div>
-
 
                 <div class="summary-row">
-
                     <span>Доставка</span>
-
-                    <span>
-                        Бесплатно
-                    </span>
-
+                    <span>Бесплатно</span>
                 </div>
-
 
                 <hr>
 
-
                 <div class="summary-total">
-
                     <span>Итого</span>
 
                     <strong>
                         689 990 ₸
                     </strong>
-
                 </div>
 
-
-                <button class="checkout-btn">
+                <button
+                    type="button"
+                    class="checkout-btn"
+                >
                     Оформить заказ
                 </button>
-
 
                 <a
                     href="catalog.html"
@@ -200,10 +202,12 @@
 
         <div class="footer_logo">
 
-            <img
-                src="../img/ByteStore.png"
-                alt="ByteStore"
-            >
+            <a href="../index.html">
+                <img
+                    src="../img/ByteStore_logo.svg"
+                    alt="ByteStore"
+                >
+            </a>
 
             <p>
                 Компьютеры, комплектующие и техника
@@ -211,30 +215,51 @@
             </p>
 
         </div>
+
         <div class="footer_menu">
 
             <h3>Навигация</h3>
 
-            <a href="../index.html">Главная</a>
-            <a href="catalog.html">Каталог</a>
+            <a href="../index.html">
+                Главная
+            </a>
+
+            <a href="catalog.html">
+                Каталог
+            </a>
+
             <a href="../index.html#builder">
                 Сборка ПК
             </a>
+
             <a href="../index.html#about">
                 О нас
             </a>
 
         </div>
+
         <div class="footer_catalog">
 
             <h3>Каталог</h3>
 
-            <a href="catalog.html">Видеокарты</a>
-            <a href="catalog.html">Процессоры</a>
-            <a href="catalog.html">Ноутбуки</a>
-            <a href="catalog.html">Мониторы</a>
+            <a href="catalog.html">
+                Видеокарты
+            </a>
+
+            <a href="catalog.html">
+                Процессоры
+            </a>
+
+            <a href="catalog.html">
+                Ноутбуки
+            </a>
+
+            <a href="catalog.html">
+                Мониторы
+            </a>
 
         </div>
+
         <div class="footer_contacts">
 
             <h3>Контакты</h3>
@@ -248,4 +273,5 @@
     </footer>
 
 </body>
+
 </html>
